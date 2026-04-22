@@ -5,6 +5,6 @@ deployment:
 ingress:
   host: "roboshop-dev.dev88s.online"
 hpa:
-  minReplicas: "2"
+  minReplicas: "1"
   maxReplicas: "10"
   targetCPUUtilizationPercentage: "60"
