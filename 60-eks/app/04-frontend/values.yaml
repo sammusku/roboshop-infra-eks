@@ -4,3 +4,7 @@ deployment:
   imageVersion: "1.4.0"
 ingress:
   host: "roboshop-dev.dev88s.online"
+hpa:
+  minReplicas: "2"
+  maxReplicas: "10"
+  targetCPUUtilizationPercentage: "60"

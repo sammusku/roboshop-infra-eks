@@ -4,3 +4,7 @@ deployment:
   replicas: "1"
   imageName: "sam123yuktha/catalogue"
   imageVersion: "1.4.0"
+hpa:
+  minReplicas: "2"
+  maxReplicas: "10"
+  targetCPUUtilizationPercentage: "60"
