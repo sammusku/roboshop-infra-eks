@@ -1,3 +1,3 @@
 output "aws_lb_target_group" {
-  value = aws_lb_target_group.https.arn
+  value = aws_lb_target_group.frontend.arn
 }
